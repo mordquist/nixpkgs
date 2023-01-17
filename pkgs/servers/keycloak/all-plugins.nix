@@ -2,7 +2,7 @@
 
 {
   scim-for-keycloak = callPackage ./scim-for-keycloak {};
-  scim-keycloak-user-storage-spi = callPackage ./scim-keycloak-user-storage-spi {};
   keycloak-discord = callPackage ./keycloak-discord {};
+  keycloak-has-logged-in = callPackage ./keycloak-has-logged-in {};
   keycloak-metrics-spi = callPackage ./keycloak-metrics-spi {};
 }
